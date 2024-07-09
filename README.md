@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+EmojiDecoder
+EmojiDecoder is a fun and interactive mobile application built using Expo that allows users to decode and understand the meanings of various emojis. Whether you're curious about a specific emoji or just want to explore the world of emojis, EmojiDecoder provides a simple and engaging way to enhance your emoji knowledge.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Features
+Emoji Search: Quickly search for any emoji and get detailed information about its meaning and usage.
+Category Browsing: Explore emojis by different categories such as Smileys, Animals, Food, Activities, and more.
+Favorites: Save your favorite emojis for easy access later.
+Recent Emojis: View a list of recently decoded emojis.
+User-friendly Interface: Simple and intuitive design for a seamless user experience.
+Getting Started
+To get started with developing or running the EmojiDecoder app, follow these steps:
 
-## Get started
+Clone the Repository:
 
-1. Install dependencies
+bash
+Copy code
+git clone https://github.com/your-username/EmojiDecoder.git
+Navigate to the Project Directory:
 
-   ```bash
-   npm install
-   ```
+bash
+Copy code
+cd EmojiDecoder
+Install Dependencies:
 
-2. Start the app
+bash
+Copy code
+npm install
+Start the Development Server:
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+bash
+Copy code
+npm start
